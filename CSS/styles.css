@@ -1,0 +1,135 @@
+/* HTML Elements */
+html{
+    scroll-behavior: smooth;
+}
+
+/* Navbar */
+nav{
+    background-color: white;
+}
+.links-navbar {
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+.nav-link:hover {
+    color: #219653;
+}
+.signup-btn {
+    color: #219653;
+    border-color: #219653;
+}
+
+/* Hero Section */
+.hero-background{
+    background-image: url("Background.png");
+    background-repeat: no-repeat;
+    position: relative;
+    bottom: 50px;
+    background-size: cover;
+    height: 100vh;
+}
+.hero-heading{
+    font-size: 5rem;
+    font-weight: 900;
+    color: white;
+    -webkit-text-stroke: 0.5px #000000;
+}
+.hero-subheading{
+    font-size: 3rem;
+    font-weight: 900;
+    color: white;
+    -webkit-text-stroke: 0.5px #000000;
+}
+.title-text{
+    position: relative;
+    top:175px;
+}
+
+/* How it works Section */
+#how{
+    padding: 5%;
+}
+.how-heading{
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+}
+.features-card{
+    text-align: center;
+}
+
+/* Who we are Section */
+#who{
+    padding: 5%;
+    background-color: #E6F1E5;
+}
+.whoweare-image{
+    background-image: url("who.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+.who-heading{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.who-para{
+    font-size: 1.25rem;
+}
+
+/* What we do Section */
+#what{
+    margin-top: 7.5%;
+    padding: 5%;
+    background-color: #E6F1E5;
+}
+.what-img{
+    filter: brightness(85%);
+}
+
+/*Footer Section*/
+#footer{
+    padding: 5%;
+}
+.subheading-footer{
+    margin-bottom: 20px;
+    color: #7C7C7C;
+    font-weight: 700;
+}
+.footer-email{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #2d2d2d;
+    text-decoration: none;
+}
+.footer-email:hover{
+    color: #219653;
+}
+.footer-icon{
+    color: #2d2d2d;
+}
+.footer-icon:hover{
+    color: #219653;
+}
+.wave{
+    width: 100%;
+}
+
+/* Responsive View */
+@media only screen and (max-width: 756px) {
+    body{
+        text-align: center;
+    }
+    #footer{
+        text-align: start;
+    }
+    .footer-email {
+        font-size: 1.5rem;
+    }
+    .footer-link{
+        margin-right: 15px;
+    }
+    nav{
+        background-color: white;
+    }
+}

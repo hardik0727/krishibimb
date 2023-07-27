@@ -1,0 +1,13 @@
+.fields {
+    width: 70%;
+    margin: auto;
+}
+#upload-image {
+    height: 160px;
+    width: 250px;
+    background-position: center;
+    background-size: cover;
+}
+.hide-image {
+    display: none;
+}
